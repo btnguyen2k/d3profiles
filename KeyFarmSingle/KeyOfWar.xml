@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile>
+    <Name>btnguyen2k's Farm KeyOfWar - based on *Swaggasauruz*</Name>
+    <GameParams quest="-1" step="-1" act="OpenWorld" resumeFromSave="False" isPrivate="True" numGames="-1" />
+    <KillMonsters>True</KillMonsters>
+    <PickupLoot>True</PickupLoot>
+    <Order>
+        <TrinityMaxDeaths questId="1" max="-1" />
+        <LogMessage output="Porting to Stonefort" />
+        <If condition="CurrentLevelAreaId == 270011">
+            <UseWaypoint questId="1" x="557.9392" y="523.653" z="2.796464" actorId="6442" waypointNumber="27" />
+            <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+        </If>
+        <If condition="CurrentLevelAreaId == 92945">
+            <UseWaypoint questId="1" x="401.759" y="414.875" z="1.5338" actorId="6442" waypointNumber="27" />
+            <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+        </If>
+        <If condition="CurrentLevelAreaId == 168314">
+            <UseWaypoint questId="1" x="324.8699" y="291.0312" z="1.645629" actorId="6442" waypointNumber="27" />
+            <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+        </If>
+        <If condition="CurrentLevelAreaId == 332339">
+            <UseWaypoint questId="1" x="402.1266" y="553.8417" z="24.9016" actorId="223757" waypointNumber="27" />
+            <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+        </If>
+        <While condition="not ActorExistsAt(256040, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 120)">
+            <LogMessage output="Looking for Warden" />
+            <TrinityMoveTo questId="1" x="4251.493" y="4241.76" z="-24.76607" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4247.188" y="4185.907" z="0.2451073" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4206.436" y="4168.61" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4182.025" y="4109.259" z="0.1000035" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4218.067" y="4051.381" z="0.09999619" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4184.868" y="3995.687" z="1.640519" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4184.194" y="3894.518" z="0.09999619" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4199.458" y="3834.241" z="0.1000012" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4215.412" y="3731.361" z="0.1" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4160.19" y="3694.703" z="0.2306634" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="4066.806" y="3719.105" z="0.6251022" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3985.829" y="3713.022" z="0.1000016" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3985.09" y="3648.082" z="25.24511" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3948.956" y="3660.662" z="25.30614" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3926.728" y="3691.393" z="25.39284" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3867.237" y="3695.328" z="0.1000076" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3818.751" y="3718.923" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3783.146" y="3690.326" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3735.738" y="3687.149" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3686.161" y="3696.732" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3660.566" y="3736.01" z="0.100003" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3595.895" y="3714.916" z="0.1" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3574.798" y="3687.594" z="0.9441112" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3520.331" y="3689.742" z="25.28366" pathPrecision="10" />
+            <TrinityMoveTo questId="1" x="3478.377" y="3687.557" z="25.27349" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3473.27" y="3619.331" z="0.3137375" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3506.258" y="3543.832" z="0.100001" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3506.094" y="3447.089" z="0.1856377" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3502.739" y="3360.442" z="0.1" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3495.96" y="3256.121" z="0.100003" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3469.31" y="3206.524" z="0.506984" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3407.946" y="3220.567" z="0.1152054" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3342.356" y="3219.231" z="0.1000006" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3289.039" y="3258.395" z="0.1000012" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3293.948" y="3319.215" z="0.3082176" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3222.941" y="3313.084" z="25.25741" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3160.829" y="3285.085" z="25.13504" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3176.631" y="3231.62" z="25.39783" pathPrecision="10" />
+            <TrinityMoveTo questId="1" x="3174.775" y="3187.695" z="0.3082157" pathPrecision="10" />
+            <TrinityMoveTo questId="1" x="3220.12" y="3169.988" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3244.267" y="3098.309" z="0.1000019" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3240.644" y="2997.092" z="0.1000008" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3217.342" y="2946.302" z="0.1000018" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3224.019" y="2877.252" z="0.09999768" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3259.745" y="2858.266" z="0.09999999" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3258.533" y="2771.191" z="0.3458496" pathPrecision="20" />
+            <TrinityMoveTo questId="1" x="3263.735" y="2729.31" z="0.3458477" pathPrecision="20" />
+            <UseTownPortal questId="1" stepId="1" />
+            <LeaveGame questId="1" stepId="1" reason="No Warden found!" />
+        </While>
+        <If condition="ActorExistsAt(256040, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+            <LogMessage output="Warden Found!" />
+            <While condition="ActorExistsAt(256040, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+                <MoveTo questId="1" actorId="256040" pathPrecision="10" />
+                <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+            </While>
+            
+            <LogMessage output="Looting any keys" />
+            <WaitTimer questId="1" stepId="1" waitTime="3000" />
+            <While condition="ActorExistsAt(364696, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+                <MoveTo questId="1" actorId="364696" pathPrecision="10" />
+                <UseObject questId="1" actorId="364696" isPortal="False" />
+            </While>
+            <While condition="ActorExistsAt(364694, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+                <MoveTo questId="1" actorId="364694" pathPrecision="10" />
+                <UseObject questId="1" actorId="364694" isPortal="False" />
+            </While>
+            <While condition="ActorExistsAt(364695, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+                <MoveTo questId="1" actorId="364695" pathPrecision="10" />
+                <UseObject questId="1" actorId="364695" isPortal="False" />
+            </While>
+            <While condition="ActorExistsAt(364697, ZetaDia.Me.Position.X, ZetaDia.Me.Position.Y, ZetaDia.Me.Position.Z, 200)">
+                <MoveTo questId="1" actorId="364697" pathPrecision="10" />
+                <UseObject questId="1" actorId="364697" isPortal="False" />
+            </While>
+            <WaitTimer questId="101758" stepId="1" waitTime="3000" />
+            
+            <UseTownPortal questId="1" stepId="1" />
+            <LeaveGame questId="1" stepId="1" reason="Done." />
+        </If>
+    </Order>
+</Profile>
